@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Standard Alien Contact Site</title>
+  <META charset="UTF-8">
+  <link rel="stylesheet" href="CssSite/resetStyle.css">
+  <link rel="stylesheet" href="CssSite/styleContacto.css">
+  <meta autor="Fer Ortuns 2022">
+  <meta name="viewport" content="width=device-width">
+
+  <script type="text/javascript" src="#BASE1.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <div></div>
+    <div class="logo">
+      <img src="ImgSite/logo4SA138p.png" alt="logo" title="logo">
+    </div>
+    <div class="buscador">
+      <input type="search" placeholder="Buscador">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li class="homeB"><a href="index.html">Home</a> </li>
+      <li><a href="#.html">Quienes</a> </li>
+      <li><a href="#.html">Catalogo</a> </li>
+      <li><a href="#.html">Cesta</a> </li>
+      <li><a href="contacto.html">Contacto</a> </li>
+    </ul>
+  </nav>
+
+  <main>
+
+      <fieldset>
+        <legend><h1>Contacta con nosotros</h1></legend>
+
+
+    <form action="http://localhost:8080/datos php" method="post">
+      <ul>
+        <li><label>Nombre: </label><input type="text" name="Nombre" placeholder="Name" required></li>
+        <li><label>Apellidos: </label><input type="text" name="Apellidos" placeholder="Surname"></li>
+        <li><label>Email: </label><input type="email" name="Email" placeholder="Email" required></li>
+        <li><label>Password: </label><input type="password" name="Pass"></li>
+
+        <li><label>Genero: </label>
+        El<input type="radio" name="genero">
+        Ella<input type="radio" name="genero">
+        Elle<input type="radio" name="genero">
+        Ello<input type="radio" name="genero" checked>
+        </li>
+        <li><label>Te mola el rollo </label><input type="checkbox" name="Mola"></li>
+
+        <li><label>Selecciona una opcion: </label>
+          <select>
+        <option>...</option>
+        <option>1SA</option>
+        <option>2SA</option>
+        <option>3SA</option>
+        <option selected>4SA</option>
+          </select>
+
+        <li><label>Foto: </label><input type="file" value="foto" name="Foto"></li>
+
+        <li><label>Cuentanos... </label><textarea name="Rollo"></textarea></li>
+
+
+        <li><input type="submit" value="Enviar"></li>
+      </ul>
+
+
+    </form>
+      </fieldset>
+
+  </main>
+
+
+
+  <footer>
+
+
+  </footer>
+
+
+
+</div>
+
+
+</body>
+</html>

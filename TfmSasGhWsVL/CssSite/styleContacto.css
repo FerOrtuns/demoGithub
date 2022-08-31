@@ -1,0 +1,158 @@
+
+
+.container{
+
+    width: 1024px;
+    margin: auto;
+    border: 1px solid #0077ff;
+}
+body{
+    margin: 0;
+}
+.container>header{
+
+    width: 100%;
+    height:140px;
+    background: #000000 ;
+    color: #ffffff;
+    overflow: hidden;
+
+}
+
+.container>header div{
+    width: 33%;
+    display: inline-block;
+
+
+}
+
+.logo{
+    text-align: center;
+    width: 80px;
+}
+
+.buscador{
+    margin-bottom: 10px;
+}
+
+.buscador input{
+    float: right;
+    margin-top: 7px;
+    background: #0077ff;
+
+
+}
+
+
+nav{
+    background: #333333;
+    color: lightgrey;
+
+
+
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+
+}
+nav li{
+    float: left;
+    background: #333333;
+    width: 20%;
+    height: 100%;
+
+
+}
+
+
+
+
+nav li a{
+
+    display: block;
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: lightgrey;
+    font-weight:bold;
+
+
+
+
+}
+
+
+
+
+nav li a:hover{
+    background: lightgrey;
+    color:  black;
+
+}
+
+.homeB{
+    background: #ff0000;
+
+    color:  lightgrey;
+}
+.homeB li a:hover{
+    background: lightgrey;
+    color:  #0077ff;
+
+
+}
+
+
+form{
+    display: block;
+    background: #0077ff;
+    color: black;
+    text-align: center;
+}
+
+form ul {
+    width: 60%;
+    margin: auto;
+    list-style: none;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+
+}
+
+label{
+    display: inline-block;
+    padding-left: 12px;
+    width: 120px;
+}
+
+form li{
+    margin: 8px 0;
+    border-bottom: 1px solid #0077ff;
+}
+
+form input{
+    padding: 8px 0;
+    border-radius: 0px;
+}
+
+form input [type="text"]{
+    padding: 8px 0;
+    border-radius: 20px;
+    background: red;
+}
+
+form input:focus{
+    background: #0077ff;
+}
+
+legend{
+    color:#0077ff;
+}
